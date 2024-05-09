@@ -6,8 +6,8 @@ library(tidyr)
 library(corrplot)
 library(maps)
 
-fundamental_data_election <- read.csv("C:/Users/gihan/OneDrive/Gihan/BGSU_MAFE/Books/Grad Econometrics/Project/fundamental_data_election.csv")
-Polls <- read.csv("C:/Users/gihan/OneDrive/Gihan/BGSU_MAFE/Books/Grad Econometrics/Polls.csv")
+fundamental_data_election <- read.csv("/fundamental_data_election.csv")
+Polls <- read.csv("/Polls.csv")
 head(Polls,20)
 
 Polls$pct_estimate <- as.numeric(as.character(Polls$pct_estimate))
